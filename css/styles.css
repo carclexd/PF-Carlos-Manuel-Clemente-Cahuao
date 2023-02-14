@@ -548,8 +548,8 @@ main .productos-postres .postres-barras{
 }
 
 
-/* !-----------MAIN SUCURSALES---------- */
-
+/* !-----------SUCURSALES---------- */
+/* 
 main .sucursal-titulo{
 background-image: url(../img/sucursales-4-titulo.jpg);
 background-repeat: no-repeat;
@@ -575,6 +575,13 @@ main .sucursal-titulo h2{
 main .sucursal-titulo p{
     font-family: 'Hind Siliguri', sans-serif;
 }
+main .caja-sucursales{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 main .caja-sucursales .caja-sucursales-titulo{
     font-family: 'Bad Script', cursive;
     font-size: 3rem;
@@ -582,13 +589,6 @@ main .caja-sucursales .caja-sucursales-titulo{
     text-shadow: 1rem 1rem 0.8rem #073489,-1rem -1rem 0.8rem #b1ccfd;
     margin-bottom: 5rem;
     margin-top: 5rem;
-}
-main .caja-sucursales{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 main .caja-sucursales .sucursal{
     background-color:#EFF2EF;
@@ -668,7 +668,7 @@ main .caja-sucursales .sucursal .sucursal-texto p{
 main .caja-sucursales .sucursal .sucursal-texto h2{
     font-family: 'Bad Script', cursive;
     font-size: 1.5rem;
-}
+} */
 
 /* !-----------PEDIDOS---------- */
 
