@@ -1,0 +1,90 @@
+footer{
+    background-color: #C1EDCC;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    .footer-caja{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        transition-duration: 1s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .footer-logo{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: #6495ed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                color: #6495ed;
+                font-family: 'Bad Script', cursive;
+                font-size: 1.5rem;
+            }
+            p{
+                font-family: 'Hind Siliguri', sans-serif;
+                font-size: 1rem;
+                color: #FF5A5F;
+            }
+        }
+        img{
+            height: 4rem;
+            width: 4rem;
+            display: flex;
+        }
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a{
+            transition-duration: 1s;
+            &:hover{
+                transform: scale(1.1)
+            }
+            img{
+                height: 4rem;
+                width: 4rem;
+                display:flex ;
+            }
+        }
+    }
+    .links-de-interes{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            color: #6495ed;
+            font-family: 'Bad Script', cursive;
+            font-size: 1.5rem;
+        }
+        a{
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 1rem;
+            color: #FF5A5F;
+            text-align: left;
+            transition-duration: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}

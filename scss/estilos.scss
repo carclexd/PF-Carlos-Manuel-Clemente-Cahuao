@@ -1,135 +1,18 @@
-main {
-    .sucursal-titulo {
-        background-image: url(../img/sucursales-4-titulo.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        width: 100%;
-        height: 60vh;
-        border-radius: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #FF5A5F;
-        text-shadow: 1rem 1rem 0.8rem #6495ed,-1rem -1rem 0.8rem #6495ed,1px 1px 0 black;
-        font-size: 3rem;
-
-        h2{
-            font-family: 'Bad Script', cursive;
-        }
-
-        p{
-            font-family: 'Hind Siliguri', sans-serif;
-        }
-    }
-
-    .caja-sucursales{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        .caja-sucursales-titulo{
-            font-family: 'Bad Script', cursive;
-            font-size: 3rem;
-            text-align: center;
-            text-shadow: 1rem 1rem 0.8rem #073489,-1rem -1rem 0.8rem #b1ccfd;
-            margin-bottom: 5rem;
-            margin-top: 5rem;
-        }
-        .sucursal{
-            background-color:#EFF2EF;
-            margin-bottom: 5rem;
-            border-radius: 2rem;
-            align-items: center;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            position: relative;
-            width: 90%;
-            height: auto;
-            padding: 2rem;
-            flex-wrap: wrap;
-
-            .sucursal-img{
-                img{
-                    width: 40rem;
-                    height: 25rem;
-                    object-fit:cover;
-                    border-radius: 2rem;
-                }
-            }
-
-            .sucursal-texto{
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                flex-direction: column;
-
-                iframe{
-                    margin-top: 1rem;
-                    width: 25rem;
-                    height: 7rem;
-                    border-radius: 2rem;
-                }
-
-                .item{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    p{
-                        color:#FF5A5F;
-                        font-family: 'Hind Siliguri', sans-serif;
-                        font-size: 1rem;
-                        width: 20rem;
-                        text-align: center;
-                    }
-                    img{
-                        width: 2rem;
-                        height: 2rem;
-                    }
-                }
-            }
-
-            .item-rappi-1{
-                position: absolute;
-                top: 0.5rem;
-                left: 0.5rem;
-            }
-            .item-rappi-2{
-                position: absolute;
-                top: 0.5rem;
-                right: 0.5rem;
-            }
-            .item-rappi{
-                img{
-                    width: 4rem;
-                    height: 4rem;
-                }
-            }
-            .sucursal-texto{
-                p{
-                    color:#FF5A5F;
-                    font-family: 'Hind Siliguri', sans-serif;
-                    font-size: 1rem;
-                    width: 20rem;
-                    text-align: center;
-                }
-                h2{
-                    font-family: 'Bad Script', cursive;
-                    font-size: 1.5rem;
-                }
-            }
-
-        }
-        .sucursal-2{
-            flex-direction: row-reverse;
-        }
-        .sucursal-4{
-            flex-direction: row-reverse;
-        }
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    background-color: #F7E1D7;
+}
+
+
+@import "header";
+@import "inicio";
+@import "sucursales";
+@import "productos";
+@import "pedidos-online";
+@import "trabaja-con-nosotros";
+@import "footer";
+@import "responsive";

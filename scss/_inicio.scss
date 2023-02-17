@@ -1,0 +1,249 @@
+main{
+    .titulo-index{
+        background-image: url(../img/imagen-principal2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 60vh;
+        border-radius: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            h2{
+                font-weight: bold;
+                text-align: center;
+                font-family: 'Bad Script', cursive;
+                font-size: 4rem;
+                color: #6495ed;
+                text-shadow: 1rem 1rem 0.8rem #FF5A5F,-1rem -1rem 0.8rem #FF5A5F,1px 1px 0 black;
+            }
+            p{
+                font-weight: bold;
+                text-align: center;
+                font-family: 'Hind Siliguri', sans-serif;
+                font-size: 2rem;
+                font-style: italic;
+                color: #6495ed;
+                text-shadow: 1rem 1rem 0.8rem #FF5A5F,-1rem -1rem 0.8rem #FF5A5F,1px 1px 0 black;
+            }
+        }
+    }
+    .pedido{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .pedido-online-instruccion{
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .pedido-titulo{
+                h2{
+                    font-family: 'Bad Script', cursive;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    text-shadow: 1rem 1rem 0.8rem #073489,-1rem -1rem 0.8rem #b1ccfd;
+                    margin-top: 5rem;
+                    margin-bottom: 5rem;
+                    font-weight: bold;
+                }
+            }
+            .pedido-cajita{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                a{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    margin-left: 10rem;
+                    margin-right: 10rem;
+                    width: 100%;
+                    transition-duration: 1s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+                a{
+                    display: inline-block;
+                    background-color:#EFF2EF;
+                    width: 200px;
+                    border-radius: 2rem;
+                    text-decoration: none;
+                    margin: 1rem;
+                    div{
+                        display: inline-block;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        p{
+                            color:#FF5A5F;
+                            font-family: 'Hind Siliguri', sans-serif;
+                            font-size: 1rem;
+                            text-align: center;
+                        }
+                        img{
+                            height: 10rem;
+                            width: 10rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .productos-principales{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .productos-caja{
+            background-color:#EFF2EF;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 5rem;
+            border-radius: 2rem;
+            width: 90%;
+            padding: 3rem;
+            align-items: center;
+            .productos-caja-texto{
+                text-align: center;
+                width: 20rem;
+                p{
+                    color:#FF5A5F;
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 1rem;
+                }
+                h2{
+                    font-family: 'Bad Script', cursive;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+            }
+            .productos-caja-img{
+                width: 40rem;
+                height: 25rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit:cover;
+                    border-radius: 2rem;
+                }
+            }
+        .veganos{
+            flex-direction: row-reverse;
+        }
+        .sin-azucar{
+            flex-direction: row-reverse;
+        }
+        }
+        .productos-titulo{
+            h2{
+                font-family: 'Bad Script', cursive;
+                font-size: 3rem;
+                font-weight: bold;
+                text-align: center;
+                text-shadow: 1rem 1rem 0.8rem #073489,-1rem -1rem 0.8rem #b1ccfd;
+                margin-bottom: 5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .galeria-titulo{
+            h2{
+                font-family: 'Bad Script', cursive;
+                font-size: 3rem;
+                text-align: center;
+                text-shadow: 1rem 1rem 0.8rem #073489,-1rem -1rem 0.8rem #b1ccfd;
+                margin-bottom: 5rem;
+                font-weight: bold;
+            }
+        }
+        .galeria-img-contenedor{
+            width: 90%;
+            padding-top: 2.5rem;
+            padding-bottom: 5rem;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: 20rem;
+            gap: 1rem;
+            grid-template-areas: 
+            "img1 img1 img2"
+            "img1 img1 img2"
+            "img3 img3 img4"
+            "img7 img5 img4"
+            "img7 img5 img6"
+            "img8 img8 img6"
+            ;
+            .galeria-img{
+                img{
+                    border-radius: 2rem;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75);
+                }
+            }
+            .img1{
+                grid-area: img1;
+            }
+            .img2{
+                grid-area: img2;
+            }
+            .img3{
+                grid-area: img3;
+            }
+            .img4{
+                grid-area: img4;
+            }
+            .img5{
+                grid-area: img5;
+            }
+            .img6{
+                grid-area: img6;
+            }
+            .img7{
+                grid-area: img7;
+            }
+            .img8{
+                grid-area: img8;
+            }
+        }
+    }
+    .whatsapp-flotante{
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        background-color: #6494ed5a;
+        border-radius: 15px;
+        a{
+            display: flex;
+            text-decoration: none;
+            img{
+                width: 3rem;
+                height: 3rem;
+            }
+            p{
+                font-size: 0.8rem;
+                color:#FF5A5F;
+                font-family: 'Hind Siliguri', sans-serif;
+            }
+        }
+    }
+}

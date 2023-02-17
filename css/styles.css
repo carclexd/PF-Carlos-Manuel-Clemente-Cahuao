@@ -1,14 +1,14 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: #F7E1D7;
-}
+} */
 
 /* ----------- Header ------------ */
-header{
+/* header{
     background-color: #EFF2EF;
     border-end-end-radius: 2rem;
     border-end-start-radius: 2rem;
@@ -25,7 +25,6 @@ header div a h1{
     font-size: 2rem;
     color: #6495ed;
     font-weight: bold;
-    /* display: inline-block; */
     margin-bottom: 0;
 }
 header div {
@@ -66,10 +65,10 @@ header .barra-nav ul li{
 }
 header .barra-nav ul li:hover{
     transform: scale(1.1);
-}
+} */
 
 /*! -------------MAIN INDEX---------------- */
-
+/*
 main .titulo-index {
     background-image: url(../img/imagen-principal2.jpg);
     background-repeat: no-repeat;
@@ -104,7 +103,7 @@ main .titulo-index div p{
 
 
 
-/* ------pedido-------- */
+------pedido--------
 
 
 main .pedido{
@@ -135,7 +134,7 @@ main .pedido .pedido-online-instruccion .pedido-cajita{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 main .pedido .pedido-online-instruccion .pedido-cajita a{
     display: flex;
@@ -175,7 +174,7 @@ main .pedido .pedido-online-instruccion .pedido-cajita a div p{
     text-align: center;
 }
 
-/* *-----Productos----- */
+*-----Productos-----
 
 main .productos-principales .productos-titulo h2{
     font-family: 'Bad Script', cursive;
@@ -237,7 +236,7 @@ main .productos-principales .sin-azucar{
     flex-direction: row-reverse;
 }
 
-/* ----Galeria---- */
+----Galeria----
 
 main .galeria .galeria-titulo h2{
     font-family: 'Bad Script', cursive;
@@ -263,7 +262,7 @@ main .galeria .galeria-img-contenedor{
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 20rem;
     gap: 1rem;
-    grid-template-areas: 
+    grid-template-areas:
     "img1 img1 img2"
     "img1 img1 img2"
     "img3 img3 img4"
@@ -308,7 +307,7 @@ main .galeria-img-contenedor .img8{
 
 
 
-/* -------whatsapp-flotante-------- */
+-------whatsapp-flotante--------
 
 main .whatsapp-flotante{
     position: fixed;
@@ -329,14 +328,14 @@ main .whatsapp-flotante a p{
     font-size: 0.8rem;
     color:#FF5A5F;
     font-family: 'Hind Siliguri', sans-serif;
-}
+} */
 
 
-/* !-----------MAIN PRODUCTOS---------- */
+/* !-----------PRODUCTOS---------- */
 
 
 
-main .titulo-productos{
+/* main .titulo-productos{
     background-image: url(../img/productos-fondo-titulo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,7 +365,7 @@ main .titulo-productos div p{
 
 }
 
-/* !----------------------SABORES AL PESO------------------------- */
+!----------------------SABORES-AL-PESO-------------------------
 
 main .sabores-alpeso .sabores-alpeso-titulo h2{
     font-family: 'Bad Script', cursive;
@@ -407,13 +406,29 @@ main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-caja-grande .gustos{
 main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-caja-grande .gustos ul{
     width: 300px;
     margin-top: 2.5rem;
-    
+
 }
 main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-caja-grande .gustos ul li{
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 2rem;
     color: #FF5A5F;
     list-style:circle;
+}
+main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-cremas .sabores-alpeso-cremas-titulo{
+    background-image: url(../img/productos-helado-crema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 2rem;
+    width: 100%;
+}
+main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-chocolates .sabores-alpeso-chocolates-titulo{
+    background-image: url(../img/producto-helado-chocolate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 2rem;
+    width: 100%;
 }
 .sabores-alpeso .sabores-alpeso-caja2{
     display: flex;
@@ -455,22 +470,7 @@ main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-caja-grande .gustos u
 }
 
 
-main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-cremas .sabores-alpeso-cremas-titulo{
-    background-image: url(../img/productos-helado-crema.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    border-radius: 2rem;
-    width: 100%;
-}
-main .sabores-alpeso .sabores-alpeso-caja1 .sabores-alpeso-chocolates .sabores-alpeso-chocolates-titulo{
-    background-image: url(../img/producto-helado-chocolate.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    border-radius: 2rem;
-    width: 100%;
-}
+
 main .sabores-alpeso .sabores-alpeso-caja2 .sabores-alpeso-ddl{
     margin-right: 10px;
 }
@@ -494,7 +494,7 @@ main .sabores-alpeso .sabores-alpeso-caja2 .sabores-alpeso-veganos .sabores-alpe
     width: 100%;
 }
 
-/* ----------Productos postres----------- */
+----------Productospostres-----------
 
 main .productos-postres{
     display: flex;
@@ -545,11 +545,11 @@ main .productos-postres .postres-barras{
     background-image: url(../img/producto-helado-barra.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
+} */
 
 
 /* !-----------SUCURSALES---------- */
-/* 
+/*
 main .sucursal-titulo{
 background-image: url(../img/sucursales-4-titulo.jpg);
 background-repeat: no-repeat;
@@ -672,7 +672,7 @@ main .caja-sucursales .sucursal .sucursal-texto h2{
 
 /* !-----------PEDIDOS---------- */
 
-main .titulo-online div{
+/* main .titulo-online div{
     background-image: url(../img/pedido-titulo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -830,13 +830,14 @@ main .caja-online-pedido .formulario-pedido form .direccion .enviar input{
     font-family: 'Hind Siliguri', sans-serif;
     border-radius: 0.6rem;
     border: none;
-}
+} */
 
 
 
 
 /* !-----------TRABAJA CON NOSOTROS---------- */
-main .titulo-trabaja{
+
+/* main .titulo-trabaja{
     background-image: url(../img/trabaja-titulo3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -871,11 +872,11 @@ main .form-trabaja .trabaja-contenedor{
 }
 main .form-trabaja .trabaja-contenedor .form-relleno input{
     font-style: italic;
-}
+} */
 
 /* !-----------FOOTER---------- */
 
-
+/* 
 footer{
     background-color: #C1EDCC;
     border-top-left-radius: 2rem;
@@ -884,7 +885,6 @@ footer{
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
-    /* margin-top: 3.75rem; */
 }
 
 footer .footer-caja{
@@ -969,7 +969,7 @@ footer .links-de-interes a{
 }
 footer .links-de-interes a:hover{
     transform: scale(1.1);
-}
+} */
 
 
 
@@ -989,7 +989,6 @@ footer .links-de-interes a:hover{
     main .caja-sucursales .sucursal .sucursal-img{
         width: 25rem;
         height: 15rem;
-
     }
     main .caja-sucursales .sucursal .sucursal-img img{
         width: 100%;
@@ -1062,7 +1061,7 @@ footer .links-de-interes a:hover{
     }
 
 
-    
+
 }
 
 
@@ -1091,12 +1090,12 @@ footer .links-de-interes a:hover{
         background-image: url(../img/sucursales-2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-    }    
+    }
     main .caja-sucursales .sucursal-3{
         background-image: url(../img/sucursales-3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-    }    
+    }
     main .caja-sucursales .sucursal-4{
         background-image: url(../img/sucursales-5.jpeg);
         background-repeat: no-repeat;
@@ -1128,7 +1127,7 @@ footer .links-de-interes a:hover{
 
     main .caja-online-pedido .formulario-pedido form .direccion .enviar input{
         margin-top: 2rem;
-        
+
     }
     main .caja-online-pedido .formulario-pedido form .direccion .direccion-valor input{
         margin-top: 2rem;
@@ -1189,8 +1188,10 @@ main .caja-online-pedido .formulario-pedido form .nombre-tlf div input{
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-
-
+    header .barra-nav ul li{
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
     main .titulo-index div h2{
         font-size: 2.5rem;
         font-weight: bold;
@@ -1198,10 +1199,7 @@ main .caja-online-pedido .formulario-pedido form .nombre-tlf div input{
     main .titulo-index div p{
         font-size: 1.5rem;
     }
-    header .barra-nav ul li{
-        margin-left: 0.3rem;
-        margin-right: 0.3rem;
-    }
+
 
 
 
@@ -1214,12 +1212,12 @@ main .caja-online-pedido .formulario-pedido form .nombre-tlf div input{
     }
     main .productos-principales .productos-caja{
     padding: 1.5rem;
-    
+
     }
 
     main .galeria .galeria-img-contenedor{
         grid-template-columns: repeat(2,1fr);
-        grid-template-areas: 
+        grid-template-areas:
         "img6 img6"
         "img6 img6"
         "img2 img3"
@@ -1241,7 +1239,7 @@ main .caja-online-pedido .formulario-pedido form .nombre-tlf div input{
     }
     main .titulo-productos div p{
         font-size: 1.5rem;
-    
+
     }
 
     /** ---------SUCURSALES---------- */
@@ -1304,7 +1302,7 @@ main .caja-online-pedido .formulario-pedido form .nombre-tlf div input{
         padding-right: 1rem;
     }
 
-    
+
     .sabores-alpeso .sabores-alpeso-caja2 .sabores-alpeso-caja-chica .sabores-alpeso-categoria-titulo h3{
         font-size: 2.3rem;
         font-weight: bold;
@@ -1352,7 +1350,7 @@ main .caja-online-pedido .formulario-pedido form .nombre-tlf div input{
     }
     main .galeria .galeria-img-contenedor{
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
         "img6"
         "img6"
         "img2"
