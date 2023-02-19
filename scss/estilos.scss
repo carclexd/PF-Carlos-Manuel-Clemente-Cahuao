@@ -6,6 +6,13 @@
 body{
     background-color: #F7E1D7;
 }
+main{
+    .migas{
+        display: inline-block;
+        display:flex;
+        font-size: 0.8rem;
+    }
+}
 
 
 @import "header";

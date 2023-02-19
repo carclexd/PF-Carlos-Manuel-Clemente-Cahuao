@@ -6,6 +6,11 @@
 body {
   background-color: #F7E1D7; }
 
+main .migas {
+  display: inline-block;
+  display: flex;
+  font-size: 0.8rem; }
+
 header {
   background-color: #EFF2EF;
   border-end-end-radius: 2rem;
@@ -236,20 +241,15 @@ main .galeria {
 
 main .whatsapp-flotante {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  background-color: #6494ed5a;
+  bottom: 2.5rem;
+  right: 3rem;
   border-radius: 15px; }
   main .whatsapp-flotante a {
     display: flex;
     text-decoration: none; }
     main .whatsapp-flotante a img {
-      width: 3rem;
-      height: 3rem; }
-    main .whatsapp-flotante a p {
-      font-size: 0.8rem;
-      color: #FF5A5F;
-      font-family: 'Hind Siliguri', sans-serif; }
+      width: 4rem;
+      height: 4rem; }
 
 main .sucursal-titulo {
   background-image: url(../img/sucursales-4-titulo.jpg);

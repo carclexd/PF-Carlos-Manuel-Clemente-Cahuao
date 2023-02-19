@@ -228,21 +228,15 @@ main{
     }
     .whatsapp-flotante{
         position: fixed;
-        bottom: 1rem;
-        right: 1rem;
-        background-color: #6494ed5a;
+        bottom: 2.5rem;
+        right: 3rem;
         border-radius: 15px;
         a{
             display: flex;
             text-decoration: none;
             img{
-                width: 3rem;
-                height: 3rem;
-            }
-            p{
-                font-size: 0.8rem;
-                color:#FF5A5F;
-                font-family: 'Hind Siliguri', sans-serif;
+                width: 4rem;
+                height: 4rem;
             }
         }
     }
