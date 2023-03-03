@@ -138,12 +138,14 @@ main{
                     border-radius: 2rem;
                 }
             }
+        }
         .veganos{
+            display: flex;
             flex-direction: row-reverse;
         }
         .sin-azucar{
+            display: flex;
             flex-direction: row-reverse;
-        }
         }
         .productos-titulo{
             h2{
@@ -231,6 +233,10 @@ main{
         bottom: 2.5rem;
         right: 3rem;
         border-radius: 15px;
+        transition-duration: 1s;
+        &:hover{
+            transform: scale(1.1);
+        }
         a{
             display: flex;
             text-decoration: none;

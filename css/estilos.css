@@ -179,10 +179,12 @@ main .productos-principales {
         height: 100%;
         object-fit: cover;
         border-radius: 2rem; }
-    main .productos-principales .productos-caja .veganos {
-      flex-direction: row-reverse; }
-    main .productos-principales .productos-caja .sin-azucar {
-      flex-direction: row-reverse; }
+  main .productos-principales .veganos {
+    display: flex;
+    flex-direction: row-reverse; }
+  main .productos-principales .sin-azucar {
+    display: flex;
+    flex-direction: row-reverse; }
   main .productos-principales .productos-titulo h2 {
     font-family: 'Bad Script', cursive;
     font-size: 3rem;
@@ -243,7 +245,10 @@ main .whatsapp-flotante {
   position: fixed;
   bottom: 2.5rem;
   right: 3rem;
-  border-radius: 15px; }
+  border-radius: 15px;
+  transition-duration: 1s; }
+  main .whatsapp-flotante:hover {
+    transform: scale(1.1); }
   main .whatsapp-flotante a {
     display: flex;
     text-decoration: none; }

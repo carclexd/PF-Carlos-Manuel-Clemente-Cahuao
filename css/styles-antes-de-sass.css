@@ -1,14 +1,14 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: #F7E1D7;
-} */
+}
 
 /* ----------- Header ------------ */
-/* header{
+header{
     background-color: #EFF2EF;
     border-end-end-radius: 2rem;
     border-end-start-radius: 2rem;
@@ -65,10 +65,10 @@ header .barra-nav ul li{
 }
 header .barra-nav ul li:hover{
     transform: scale(1.1);
-} */
+}
 
 /*! -------------MAIN INDEX---------------- */
-/*
+
 main .titulo-index {
     background-image: url(../img/imagen-principal2.jpg);
     background-repeat: no-repeat;
@@ -328,7 +328,7 @@ main .whatsapp-flotante a p{
     font-size: 0.8rem;
     color:#FF5A5F;
     font-family: 'Hind Siliguri', sans-serif;
-} */
+}
 
 
 /* !-----------PRODUCTOS---------- */
