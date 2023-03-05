@@ -6,7 +6,7 @@ main{
         background-attachment: fixed;
         width: 100%;
         height: 60vh;
-        border-radius: 2rem;
+        border-radius:$semi-curva;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -74,7 +74,7 @@ main{
                     display: inline-block;
                     background-color:#EFF2EF;
                     width: 200px;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                     text-decoration: none;
                     margin: 1rem;
                     div{
@@ -135,7 +135,7 @@ main{
                     width: 100%;
                     height: 100%;
                     object-fit:cover;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                 }
             }
         }
@@ -193,7 +193,7 @@ main{
             ;
             .galeria-img{
                 img{
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                     width: 100%;
                     height: 100%;
                     object-fit: cover;

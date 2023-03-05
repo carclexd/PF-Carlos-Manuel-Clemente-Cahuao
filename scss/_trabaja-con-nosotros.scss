@@ -8,7 +8,7 @@ main{
         text-shadow: 1rem 1rem 0.8rem #6495ed,-1rem -1rem 0.8rem #6495ed,1px 1px 0 black;
         width: 100%;
         height: 70vh;
-        border-radius: 2rem;
+        border-radius: $semi-curva;
         font-family: 'Bad Script', cursive;
         text-align: center;
         display: flex;

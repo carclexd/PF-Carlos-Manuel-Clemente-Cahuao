@@ -6,7 +6,7 @@ main {
         background-attachment: fixed;
         width: 100%;
         height: 60vh;
-        border-radius: 2rem;
+        border-radius: $semi-curva;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -43,7 +43,7 @@ main {
         .sucursal{
             background-color:#EFF2EF;
             margin-bottom: 5rem;
-            border-radius: 2rem;
+            border-radius: $semi-curva;
             align-items: center;
             display: flex;
             justify-content: space-around;
@@ -53,13 +53,14 @@ main {
             height: auto;
             padding: 2rem;
             flex-wrap: wrap;
+            position: relative;
 
             .sucursal-img{
                 img{
                     width: 40rem;
                     height: 25rem;
                     object-fit:cover;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                 }
             }
 
@@ -73,7 +74,7 @@ main {
                     margin-top: 1rem;
                     width: 25rem;
                     height: 7rem;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                 }
 
                 .item{
@@ -98,11 +99,30 @@ main {
                 position: absolute;
                 top: 0.5rem;
                 left: 0.5rem;
+                animation-name: rotacion1;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes rotacion1 {
+                0%{top: 0.5rem;left: 0.5rem;}
+                25%{top: 0.5rem;left: 2rem;}
+                50%{top: 2rem;left: 2rem;}
+                75%{top: 2rem;left: 0.5rem;}
+                
             }
             .item-rappi-2{
                 position: absolute;
                 top: 0.5rem;
                 right: 0.5rem;
+                animation-name: rotacion2;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes rotacion2 {
+                0%{top: 0.5rem;right: 0.5rem;}
+                25%{top: 0.5rem;right: 2rem;}
+                50%{top: 2rem;right: 2rem;}
+                75%{top: 2rem;right: 0.5rem;}
             }
             .item-rappi{
                 img{

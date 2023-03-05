@@ -6,7 +6,7 @@ main{
         background-attachment: fixed;
         width: 100%;
         height: 60vh;
-        border-radius: 2rem;
+        border-radius: $semi-curva;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -78,7 +78,7 @@ main{
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-attachment: fixed;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                     width: 100%;
                 }
             }
@@ -88,7 +88,7 @@ main{
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-attachment: fixed;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                     width: 100%;
                 }
             }
@@ -133,7 +133,7 @@ main{
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-attachment: fixed;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                     width: 100%;
                 }
             }
@@ -144,7 +144,7 @@ main{
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-attachment: fixed;
-                    border-radius: 2rem;
+                    border-radius: $semi-curva;
                     width: 100%;
                 }
             }
@@ -160,7 +160,7 @@ main{
             width: 30rem;
             height: 30rem;
             display: inline-block;
-            border-radius: 2rem;
+            border-radius: $semi-curva;
             margin: 1.25rem;
             h2{
                 font-family: 'Bad Script', cursive;
