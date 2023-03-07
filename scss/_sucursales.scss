@@ -1,8 +1,3 @@
-@mixin item-rappi{
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-}
 main {
     .sucursal-titulo {
         background-image: url(../img/sucursales-4-titulo.jpg);
@@ -101,7 +96,9 @@ main {
             }
 
             .item-rappi-1{
-                @include item-rappi;
+                position: absolute;
+                top: 0.5rem;
+                left: 0.5rem;
                 animation-name: rotacion1;
                 animation-duration: 2s;
                 animation-iteration-count: infinite;
@@ -114,7 +111,9 @@ main {
                 
             }
             .item-rappi-2{
-                @include item-rappi;
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
                 animation-name: rotacion2;
                 animation-duration: 2s;
                 animation-iteration-count: infinite;

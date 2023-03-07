@@ -362,7 +362,7 @@ main .caja-sucursales {
     main .caja-sucursales .sucursal .item-rappi-1 {
       position: absolute;
       top: 0.5rem;
-      right: 0.5rem;
+      left: 0.5rem;
       animation-name: rotacion1;
       animation-duration: 2s;
       animation-iteration-count: infinite; }
