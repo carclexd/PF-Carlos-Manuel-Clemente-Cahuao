@@ -171,33 +171,27 @@ main{
         }
         .postres-cubanitos{
             background-image: url(../img/producto-helado-cubanitos.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
+            @include img-postres;
         }
         .postres-tabletas{
             background-image: url(../img/producto-helado-tabletas.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
+            @include img-postres;
         }
         .postres-paletas-lisas{
             background-image: url(../img/producto-helado-lisas.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
+            @include img-postres;
         }
         .postres-paletas-rellenas{
             background-image: url(../img/producto-helado-rellenas.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
+            @include img-postres;
         }
         .postres-tortas{
             background-image: url(../img/producto-helado-tortas.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
+            @include img-postres;
         }
         .postres-barras{
             background-image: url(../img/producto-helado-barra.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
+            @include img-postres;
         }
     }
 }

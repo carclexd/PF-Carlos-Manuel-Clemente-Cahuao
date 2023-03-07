@@ -1,3 +1,8 @@
+@mixin texto-prin{
+    color: #6495ed;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5rem;
+}
 footer{
     background-color: #C1EDCC;
     border-top-left-radius: $semi-curva;
@@ -32,9 +37,7 @@ footer{
             justify-content: center;
             align-items: center;
             h2{
-                color: #6495ed;
-                font-family: 'Bad Script', cursive;
-                font-size: 1.5rem;
+                @include texto-prin;
             }
             p{
                 font-family: 'Hind Siliguri', sans-serif;
@@ -72,9 +75,7 @@ footer{
         justify-content: center;
         align-items: center;
         h2{
-            color: #6495ed;
-            font-family: 'Bad Script', cursive;
-            font-size: 1.5rem;
+            @include texto-prin;
         }
         a{
             font-family: 'Hind Siliguri', sans-serif;
