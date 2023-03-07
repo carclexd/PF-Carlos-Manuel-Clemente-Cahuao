@@ -103,12 +103,12 @@ main {
                 animation-duration: 2s;
                 animation-iteration-count: infinite;
             }
-            @keyframes rotacion1 {
+            @keyframes rotacion1{
                 0%{top: 0.5rem;left: 0.5rem;}
                 25%{top: 0.5rem;left: 2rem;}
                 50%{top: 2rem;left: 2rem;}
                 75%{top: 2rem;left: 0.5rem;}
-                
+                100%{top: 0.5rem;left: 0.5rem;}
             }
             .item-rappi-2{
                 position: absolute;
@@ -123,6 +123,7 @@ main {
                 25%{top: 0.5rem;right: 2rem;}
                 50%{top: 2rem;right: 2rem;}
                 75%{top: 2rem;right: 0.5rem;}
+                100%{top: 0.5rem;right: 0.5rem;}
             }
             .item-rappi{
                 img{

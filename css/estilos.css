@@ -379,6 +379,9 @@ main .caja-sucursales {
     left: 2rem; }
   75% {
     top: 2rem;
+    left: 0.5rem; }
+  100% {
+    top: 0.5rem;
     left: 0.5rem; } }
     main .caja-sucursales .sucursal .item-rappi-2 {
       position: absolute;
@@ -400,6 +403,9 @@ main .caja-sucursales {
     right: 2rem; }
   75% {
     top: 2rem;
+    right: 0.5rem; }
+  100% {
+    top: 0.5rem;
     right: 0.5rem; } }
     main .caja-sucursales .sucursal .item-rappi img {
       width: 4rem;
